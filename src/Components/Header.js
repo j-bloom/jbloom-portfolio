@@ -9,7 +9,6 @@ function Header() {
       <div className="logo">
         <img src={Logo} alt="" />
       </div>
-
       <Navigation />
     </header>
   );

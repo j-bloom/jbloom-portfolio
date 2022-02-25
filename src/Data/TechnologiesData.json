@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "img": "https://netivist.org/uploads/forum/discussions/pictures/55d9a37555f4f719785e3468/windows-10-download-xl.jpg",
+        "content": "I use Windows for school and when I need to"
+    },
+    {
+        "id": 2,
+        "img": "https://distroratings.github.io/images/qubes_os.png",
+        "content": "I use Qubes for all personal use"
+    },
+    {
+        "id": 3,
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.YEPFZUCfl4Mr6k_JWybcSAHaHa%26pid%3DApi&f=1",
+        "content": "I use Emacs as one of my text editors and taking notes in school"
+    },
+    {
+        "id": 4,
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fres.infoq.com%2Fnews%2F2021%2F04%2Fvs2022-announced%2Fen%2Fheaderimage%2Fheader-1619137125574.jpg&f=1&nofb=1",
+        "content": "I use Visual Studio mostly when working on school assigments or writting C#"
+    },
+    {
+        "id": 5,
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmiro.medium.com%2Fmax%2F600%2F1*u9Rw2zT1kQl0I0Oa-9vc_g.png&f=1&nofb=1",
+        "content": "I use Visual Studio Code for writing web code, mostly when I am using Windows"
+    }
+]

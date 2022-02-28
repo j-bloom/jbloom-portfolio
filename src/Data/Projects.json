@@ -1,0 +1,26 @@
+[
+    {
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.nov85N4eNQipj7iHxZPBGwHaHa%26pid%3DApi&f=1",
+        "description": "This application allows users view and save their favorite jokes"
+    },
+    {
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.nov85N4eNQipj7iHxZPBGwHaHa%26pid%3DApi&f=1",
+        "description": "This application allows users to simulate ordering a pizza"
+    },
+    {
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F1%2F18%2FISO_C%252B%252B_Logo.svg%2F391px-ISO_C%252B%252B_Logo.svg.png&f=1&nofb=1",
+        "description": "This application reads from a file and saves items for disaster relief"
+    },
+    {
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F1%2F18%2FC_Programming_Language.svg%2F1200px-C_Programming_Language.svg.png&f=1&nofb=1",
+        "description": "This application allows users to choose an option to edit text or use a calculator"
+    },
+    {
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.DN7ToydkJZEdVaJVK_NhvwHaHa%26pid%3DApi&f=1",
+        "description": "This form accepts user input and submits the data to a server"
+    },
+    {
+        "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fhugoware.com%2Fhome%2Fxamarin-icon.png&f=1&nofb=1",
+        "description": "This application is the same app as the Ionic Jokes app but is written in Xamarin"
+    }
+]

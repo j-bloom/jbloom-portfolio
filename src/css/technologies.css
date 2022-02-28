@@ -1,5 +1,10 @@
 @import "../index.css";
 
+.tech--page {
+    background: var(--clr-dark);
+    margin-bottom: -100em;
+}
+
 .my-technologies {
     background-color: var(--clr-dark);
     background-image: url(../images/technologies.jpg);
@@ -11,7 +16,7 @@
 }
 
 .section__title--technology {
-    color: var(--clr-accent);
+    color: var(--clr-light);
     position: relative;
 }
 
@@ -31,6 +36,35 @@
     margin-bottom: 4em;
 }
 
+.tech__img {
+    display: block;
+    max-height: 15em;
+    max-width: 15em;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tech__name{
+    color: var(--clr-light);
+    font-size: x-large;
+    text-align: center;
+    margin-top: 1em;
+    padding-bottom: 3em;
+}
+
+.tech--table {
+    width: calc(100% / 1.5) !important;
+    display: flex;
+    justify-content: center !important;
+}
+
+.tech__list {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
 @media (min-width: 800px) {
     .technologies {
         display: flex;
@@ -40,5 +74,20 @@
 
     .technology-item  + .technology-item {
         padding-left: 2em;
+    }
+
+    .tech--page--title,
+    .tech--page--subtitle {
+        display: block;
+        color: var(--clr-light);
+        text-align: center;
+    }
+
+    .tech--page--title {
+        padding-top: 1.5em;
+    }
+
+    .tech--page--subtitle {
+        padding-bottom: 2em;
     }
 }

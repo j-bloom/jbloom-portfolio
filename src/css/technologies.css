@@ -16,7 +16,7 @@
 }
 
 .section__title--technology {
-    color: var(--clr-accent);
+    color: var(--clr-light);
     position: relative;
 }
 
@@ -74,5 +74,20 @@
 
     .technology-item  + .technology-item {
         padding-left: 2em;
+    }
+
+    .tech--page--title,
+    .tech--page--subtitle {
+        display: block;
+        color: var(--clr-light);
+        text-align: center;
+    }
+
+    .tech--page--title {
+        padding-top: 1.5em;
+    }
+
+    .tech--page--subtitle {
+        padding-bottom: 2em;
     }
 }

@@ -27,3 +27,35 @@
     background: var(--clr-light);
     opacity: 0.25;
 }
+
+.my-work--title {
+    margin-bottom: 1.5em;
+}
+
+.my-work--subtitle {
+    color: var(--clr-light);
+    margin-bottom: 1.5em;
+}
+
+.my-work__page {
+    text-align: center;
+    background: var(--clr-dark);  
+    padding-top: 2em;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+}
+
+.my-work--title {
+    color: var(--clr-light);
+}
+
+.my-work__table--items {
+    background: var(--clr-light);
+}
+
+.my-work__table {                   
+    display: inline-table;
+    max-width: 50%;
+}

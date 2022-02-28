@@ -1,5 +1,4 @@
 import React from "react";
-import Table from "react-bootstrap/Table";
 import Technologies from "../Data/TechnologiesData.json";
 import "../css/technologies.css";
 
@@ -10,7 +9,7 @@ function TechnologiesComponent() {
         return (
           <div className="tech__items">
             <br></br>
-            <img src={item.img} className="tech__img" />
+            <img src={item.img} className="tech__img" alt="technology used"/>
             <h2 className="tech__name">{item.content}</h2>
           </div>
         );

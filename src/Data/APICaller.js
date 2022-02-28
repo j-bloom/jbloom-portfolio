@@ -23,10 +23,10 @@ useEffect(() => {
     } finally {
       setIsLoading(false);
     }
-  };
+  }; 
 
   (async () => await fetchItems())();
-}, []);
+}, [fetchError]);
 
 
     return { projects, fetchError, isLoading };

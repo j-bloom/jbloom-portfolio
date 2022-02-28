@@ -3,7 +3,15 @@ import AboutMe from "../Components/AboutMeComponent";
 import Footer from "../Components/Footer";
 import MyWorkComponent from "../Components/MyWorkComponent";
 import Technologies from "../Data/TechnologiesData.json";
+import { Link } from "react-router-dom";
 
+import "../css/intro.css";
+import "../css/header.css";
+import "../css/about.css";
+import "../css/technologies.css";
+import "../css/button.css";
+import "../css/my-work.css";
+import "../css/footer.css";
 import ProfilePhoto from "../images/portfoliophoto-placeholder.jpg";
 
 function HomePage() {
@@ -14,61 +22,76 @@ function HomePage() {
         <h1 className="section__title section__title--intro">
           Hi, I am <strong>Jaron Bloom</strong>
         </h1>
-        <p className="section__subtitle secttion__subtitle--intro">
+        <p className="section__subtitle section__subtitle--intro">
           Software Developer
         </p>
-        <img
-          src={ProfilePhoto}
-          alt="Jaron"
-          style={{ height: "100px" }}
-        />
+        <img src={ProfilePhoto} alt="Jaron" className="intro__img" />
       </section>
 
       {/* My Technologies Section */}
       <section className="my-technologies" id="technology">
         <h1 className="section__title section__title--technology">
-          Some of the daily technologies I use...
+          Technologies I use
         </h1>
         {/* Below code is to ensure only certain objects get shown 
           on main page to not over crowd it more objects are displayed 
           on the Technologies page */}
-        {Technologies.map(item => {
-          if(item.id < 3){
-          return (    
-            <div key={item.id}>
-              <img src={item.img} alt=""/>
-              <p>{item.content}</p>
-            </div>
-          )
-        }
-        return true;
-        })}
+        <div className="technologies">
+          {Technologies.map((item) => {
+            if (item.id < 3) {
+              return (
+                <div key={item.id} className="technology-item">
+                  <img src={item.img} alt="" />
+                  <p>{item.content}</p>
+                </div>
+              );
+            }
+            return true;
+          })}
+        </div>
+        <Link to="/Technologies" className="btn">
+          Other technologies I use
+        </Link>
       </section>
 
       {/* About Me Section */}
-      <section className="about-me" id="about">
-        <h2 className="section__title section__title--about">Who I am...</h2>
-        <p className="section__subtitle section__subtitle--about"></p>
+      <section>
+        <div className="about-me" id="about">
+          <h2 className="section__title section__title--about">Who I am</h2>
+          <p className="section__subtitle section__subtitle--about">
+            Honours Bachelor of Technology (Software Development) Student
+          </p>
 
-        <div className="about-me__body">
-          <AboutMe />
+          <div className="about-me__body">
+            <AboutMe />
+          </div>
+          <img src={ProfilePhoto} alt="Jaron" className="about-me__img" />
         </div>
-        <img
-          src={ProfilePhoto}
-          alt="Jaron"
-          style={{ height: "100px" }}
-        />
+        <span className="about-me__btn">
+          <Link to="/Aboutme" className="btn">
+            A little more about me
+          </Link>
+        </span>
       </section>
 
       {/* My Work Section */}
       <section className="my-work" id="work">
-        <h2 className="section__title section__title--work">My Work...</h2>
-        <p className="section__subtitle ">Here are some of my works</p>
-        <MyWorkComponent />
+        <h2 className="section__title section__title--work">My Work</h2>
+        <p className="section__subtitle section__subtitle--work">
+          Here are some of my projects
+        </p>
+        <div className="portfolio">
+          <MyWorkComponent />
+        </div>
+        <Link to="/MyWork" className="btn">
+          View additional projects
+        </Link>
       </section>
 
       {/* Footer Section */}
-      <Footer />
+      <footer className="footer">
+        <Footer />
+      </footer>
     </div>
   );
 }

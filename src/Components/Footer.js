@@ -1,9 +1,10 @@
 import React from "react";
+import "../css/footer.css"
 
 function Footer() {
   return (
     <footer>
-      <a href="mailto:j-bloom7@protonmail.com" className="footer-link">
+      <a href="mailto:j-bloom7@protonmail.com" className="footer__link">
         j-bloom7@protonmail.com
       </a>
       <ul className="social-list">
@@ -12,7 +13,7 @@ function Footer() {
             className="social-list__link"
             href="https://www.linkedin.com/in/jaron-bloom/"
           >
-            Linkedin
+            <i class="fa-brands fa-linkedin"></i>
           </a>
         </li>
         <li className="social-list__item">
@@ -20,7 +21,7 @@ function Footer() {
             className="social-list__link"
             href="https://github.com/j-bloom"
           >
-            GitHub
+            <i class="fa-brands fa-github"></i>
           </a>
         </li>
       </ul>

@@ -6,11 +6,13 @@ import Home from "./Pages/HomePage";
 import AboutMe from "./Pages/AboutMePage";
 import Technologies from "./Pages/TechnologiesPage";
 import MyWork from "./Pages/MyWorkPage";
+import Navigation from './Components/Navigation';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App"> 
-      <Header />
+      <Navigation />
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/AboutMe" element={<AboutMe />} />

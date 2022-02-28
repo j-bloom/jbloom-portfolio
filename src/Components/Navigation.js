@@ -1,27 +1,27 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import "../css/header.css";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from 'react-bootstrap/Nav';
+import { Container } from 'react-bootstrap';
+// import Navbar from "react-bootstrap/Navbar";
+// import Nav from 'react-bootstrap/Nav';
+
 
 function Navigation() {
   return (
-    <nav className="nav">
-      <ul className="nav__list">
-      <button className="nav-toggle" aria-label="toggle navigation">
-        <span className="hamburger"></span>
-      </button>
-        <li className="nav__item">
-          <NavLink to="/">Home</NavLink>
-        </li>
-        <li className="nav__item">
-          <NavLink to="/AboutMe">About Me</NavLink>
-        </li>
-        <li className="nav__item">
-          <NavLink to="/Technologies">Technologies</NavLink>
-        </li>
-        <li className="nav__item">
-          <NavLink to="/MyWork">My Work</NavLink>
-        </li>
-      </ul>
-    </nav>
+    <div>
+      <Navbar bg="dark" variant="dark">
+        <Container>
+          <Navbar.Brand></Navbar.Brand>
+          <Nav className="nav-barS">
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/AboutMe">About Me</Nav.Link>
+            <Nav.Link href="/Technologies">Technologies</Nav.Link>
+            <Nav.Link href="/MyWork">Projects</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+    </div>
   );
 }
 

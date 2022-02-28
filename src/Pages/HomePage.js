@@ -3,7 +3,7 @@ import AboutMe from "../Components/AboutMeComponent";
 import Footer from "../Components/Footer";
 import MyWorkComponent from "../Components/MyWorkComponent";
 import Technologies from "../Data/TechnologiesData.json";
-import { Link } from "react-router-dom";
+import Button from 'react-bootstrap/Button';
 
 import "../css/intro.css";
 import "../css/header.css";
@@ -49,9 +49,9 @@ function HomePage() {
             return true;
           })}
         </div>
-        <Link to="/Technologies" className="btn">
+        <Button href="/Technologies" className="btn">
           Other technologies I use
-        </Link>
+        </Button>
       </section>
 
       {/* About Me Section */}
@@ -68,9 +68,9 @@ function HomePage() {
           <img src={ProfilePhoto} alt="Jaron" className="about-me__img" />
         </div>
         <span className="about-me__btn">
-          <Link to="/Aboutme" className="btn">
+          <Button href="/Aboutme" className="btn">
             A little more about me
-          </Link>
+          </Button>
         </span>
       </section>
 
@@ -83,9 +83,9 @@ function HomePage() {
         <div className="portfolio">
           <MyWorkComponent />
         </div>
-        <Link to="/MyWork" className="btn">
+        <Button variant="primary" href="/MyWork" className="btn">
           View additional projects
-        </Link>
+        </Button>
       </section>
 
       {/* Footer Section */}

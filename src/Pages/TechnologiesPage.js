@@ -3,7 +3,7 @@ import TechnologiesComponent from "../Components/TechnologiesComponent";
 
 function TechnologiesPage() {
   return (
-    <div className="technologies">
+    <div  className="tech--page">
       <TechnologiesComponent />
     </div>
   );

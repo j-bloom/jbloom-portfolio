@@ -20,7 +20,7 @@ function MyWorkComponent() {
             return (
               <div key={item.id} className="portfolio__item">
                 <p>Project: {item.name}</p>
-                <a href={item.html_url} className="btn">{item.html_url}</a>
+                <a href={item.html_url} className="portfolio__item--link">{item.html_url}</a>
                 <p>Language written in: {item.language}</p>
               </div>
             );}

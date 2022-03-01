@@ -12,7 +12,9 @@ import "../css/technologies.css";
 import "../css/button.css";
 import "../css/my-work.css";
 import "../css/footer.css";
-import ProfilePhoto from "../images/portfoliophoto-placeholder.jpg";
+import ProfilePhoto from "../images/portfolio-photo.jpg";
+import AboutMePhoto from "../images/portfoliophoto-placeholder.jpg";
+
 
 function HomePage() {
   return (
@@ -65,7 +67,7 @@ function HomePage() {
           <div className="about-me__body">
             <AboutMe />
           </div>
-          <img src={ProfilePhoto} alt="Jaron" className="about-me__img" />
+          <img src={AboutMePhoto} alt="Jaron" className="about-me__img" />
         </div>
         <span className="about-me__btn">
           <Button href="/Aboutme" className="btn">

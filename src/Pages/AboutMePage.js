@@ -5,7 +5,7 @@ import Footer from "../Components/Footer";
 function AboutMePage() {
   return (
     <div className="about-me__page">
-      <h1>Here is a little bit more about me</h1>
+      <h1 className="about-me__title">Here is a little bit more about me</h1>
       <div className="about-me__description">
         <p>
           My name is Jaron Bloom, and I am currently a Computer Science student

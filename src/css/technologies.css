@@ -55,11 +55,7 @@
     padding-bottom: 3em;
 }
 
-.tech--table {
-    width: calc(100% / 1.5) !important;
-    display: flex;
-    justify-content: center !important;
-}
+
 
 .tech__list {
     display: grid !important;

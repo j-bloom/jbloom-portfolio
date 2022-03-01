@@ -69,12 +69,11 @@
         margin-bottom: 1.5em;
     }
 
-
-
     .about-me__description{
         inline-size: 40%;
         margin: auto;
         overflow-wrap: break-word;
         
     }
+    
 }

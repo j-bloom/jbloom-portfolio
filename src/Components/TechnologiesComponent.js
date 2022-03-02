@@ -50,6 +50,7 @@ function TechnologiesComponent() {
           return true;
         })}
       </div>
+      <br></br>
     </div>
   );
 }

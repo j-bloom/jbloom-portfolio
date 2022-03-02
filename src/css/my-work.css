@@ -63,7 +63,7 @@
     max-width: 50%;
 }
 
-@media (min-width: 300px) { 
+@media (min-width: 350px) { 
     .my-work__page {
         text-align: center;
         background: var(--clr-dark);  

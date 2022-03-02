@@ -1,91 +1,99 @@
 @import "../index.css";
 
 .section__subtitle--about {
-    background: var(--clr-accent);
-    padding: .25em 1em;
-    font-family: var(--ff);
-    margin-bottom: 1em;
+  background: var(--clr-accent);
+  padding: 0.25em 1em;
+  font-family: var(--ff);
+  margin-bottom: 1em;
 }
 
 .about-me {
-    max-width: 1000px;
-    margin: 0 auto;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .about-me__img {
-    box-shadow: var(--bs);
+  box-shadow: var(--bs);
 }
 
 .about-me__btn {
-    display: flex !important;
-    position: relative;
-    margin-top: 3em;
-    justify-content: center;
+  display: flex !important;
+  position: relative;
+  margin-top: 3em;
+  justify-content: center;
 }
 
 .about-me__page {
-    text-align: center;
-    background: var(--clr-dark);  
-    color: var(--clr-light);
-    padding-top: 2em;
-    width: 100%;
-    height: 100%;
-    position: absolute;
+  text-align: center;
+  background: var(--clr-dark);
+  color: var(--clr-light);
+  padding-top: 2em;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 @media (min-width: 600px) {
-    .about-me {
-        display: grid;
-        grid-template-columns: 1fr 200px;
-        grid-template-rows: 2fr;
-        grid-template-areas: 
-            "title img"
-            "subtitle img"
-            "text img";
-        grid-column-gap: 2em;
-    }
+  .about-me {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: 2fr;
+    grid-template-areas:
+      "title img"
+      "subtitle img"
+      "text img";
+    grid-column-gap: 2em;
+  }
 
-    .section__title--about {
-        grid-area: title;
-    }
+  .section__title--about {
+    grid-area: title;
+  }
 
-    .section__subtitle--about {
-        grid-column: 1 / -1;
-        grid-row: 2;
-        position: relative;
-        left: -1em;
-        width: calc(100% + 2em);
-        padding-left: 1em;
-        padding-right: calc(200px + 4em);
-    }
+  .section__subtitle--about {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    position: relative;
+    left: -1em;
+    width: calc(100% + 2em);
+    padding-left: 1em;
+    padding-right: calc(200px + 4em);
+  }
 
-    .about-me__img {
-        grid-area: img;
-        position: relative;
-        z-index: 2;
-    }
+  .about-me__img {
+    grid-area: img;
+    position: relative;
+    z-index: 2;
+  }
 
-    .about-me__title {
-        margin-bottom: 1.5em;
-    }
+  .about-me__title {
+    margin-bottom: 1.5em;
+  }
 
-    .about-me__description{
-        inline-size: 75%;
-        margin: auto;
-        overflow-wrap: break-word; 
-    }
-    
+  .about-me__description {
+    inline-size: 75%;
+    margin: auto;
+    overflow-wrap: break-word;
+  }
 }
 
 @media (min-width: 350px) {
-    .about-me__title,
-    .about-me__description{
-        inline-size: 75%;
-        margin: auto;
-        overflow-wrap: break-word; 
-    }
-    
-    .about-me__title {
-        margin-bottom: 1.5em;
-    }
+  .about-me__title,
+  .about-me__description {
+    inline-size: 75%;
+    margin: auto;
+    overflow-wrap: break-word;
+  }
+
+  .about-me__title {
+    margin-bottom: 1.5em;
+  }
+
+  .about-me__page {
+    text-align: center;
+    background: var(--clr-dark);
+    color: var(--clr-light);
+    width: 100%;
+    height: 110%;
+    position: absolute;
+  }
 }

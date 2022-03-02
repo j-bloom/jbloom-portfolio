@@ -12,10 +12,10 @@ function Navigation() {
         <Container>
           <Navbar.Brand></Navbar.Brand>
           <Nav className="nav-barS">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/AboutMe">About Me</Nav.Link>
-            <Nav.Link href="/Technologies">Technologies</Nav.Link>
-            <Nav.Link href="/MyWork">Projects</Nav.Link>
+            <Nav.Link className="nav-bar__item" href="/">Home</Nav.Link>
+            <Nav.Link className="nav-bar__item" href="/AboutMe">About Me</Nav.Link>
+            <Nav.Link className="nav-bar__item" href="/Technologies">Technologies</Nav.Link>
+            <Nav.Link className="nav-bar__item" href="/MyWork">Projects</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

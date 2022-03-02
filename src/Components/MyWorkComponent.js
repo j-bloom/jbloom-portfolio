@@ -24,6 +24,7 @@ function MyWorkComponent() {
                 <p>Language written in: {item.language}</p>
               </div>
             );}
+            return true;
           })}
         </div>
       {/* </div> */}

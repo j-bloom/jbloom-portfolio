@@ -70,10 +70,22 @@
     }
 
     .about-me__description{
-        inline-size: 40%;
+        inline-size: 75%;
         margin: auto;
-        overflow-wrap: break-word;
-        
+        overflow-wrap: break-word; 
     }
     
+}
+
+@media (min-width: 350px) {
+    .about-me__title,
+    .about-me__description{
+        inline-size: 75%;
+        margin: auto;
+        overflow-wrap: break-word; 
+    }
+    
+    .about-me__title {
+        margin-bottom: 1.5em;
+    }
 }

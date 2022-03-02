@@ -1,7 +1,5 @@
 import React from "react";
 import "../css/header.css";
-
-import Logo from "../images/devjaron.PNG";
 import Navigation from "./Navigation";
 
 function Header() {

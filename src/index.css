@@ -29,7 +29,7 @@ code {
 
   --clr-light: #fff;
   --clr-dark: #303030;
-  --clr-accent: #4586e9;
+  --clr-accent: #035ee7;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -96,4 +96,5 @@ h3 { font-size: var(--fs-h3); }
 .section__subtitle {
   margin: 0;
   font-size: var(--fs-h3);
+  color: var(--clr-light);
 }

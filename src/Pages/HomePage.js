@@ -40,11 +40,10 @@ function HomePage() {
           on the Technologies page */}
         <div className="technologies">
           {Technologies.map((item) => {
-            if (item.id < 3) {
+            if ((item.content === "C#") || (item.content === "React")) {
               return (
                 <div key={item.id} className="technology-item">
                   <img src={item.img} alt="" />
-                  <p>{item.content}</p>
                 </div>
               );
             }

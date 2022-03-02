@@ -4,23 +4,54 @@ import "../css/technologies.css";
 
 function TechnologiesComponent() {
   return (
-    <div  className="tech--page">
-      {Technologies.map((item) => {
-        return (
-          <div className="tech__items">
-            <br></br>
-            <img src={item.img} className="tech__img" alt="technology used"/>
-            <h2 className="tech__name">{item.content}</h2>
-          </div>
-        );
-      })}
+    <div className="tech--page">
+      <h3 className="tech--page__language">Programming Languages</h3>
+      <div className="tech__items">
+        {Technologies.map((item) => {
+          if (item.langType === "Programming") {
+            return (
+              <img
+                src={item.img}
+                className="tech--img__programming"
+                alt="technology used"
+              />
+            );
+          }
+          return true;
+        })}
+      </div>
+      <h3 className="tech--page__language">Web Languages & Frameworks</h3>
+      <div className="tech__items">
+        {Technologies.map((item) => {
+          if (item.langType === "WebDevelopment") {
+            return (
+              <img
+                src={item.img}
+                className="tech--img__webdev"
+                alt="technology used"
+              />
+            );
+          }
+          return true;
+        })}
+      </div>
+      <h3 className="tech--page__language">Databases</h3>
+      <div className="tech__items">
+        {Technologies.map((item) => {
+          if (item.langType === "Database") {
+            return (
+              <img
+                src={item.img}
+                className="tech--img__db"
+                alt="technology used"
+              />
+            );
+          }
+          return true;
+        })}
+      </div>
     </div>
   );
 }
 
 export default TechnologiesComponent;
-
-// <div key={item.id}>
-//             <img src={item.img} alt="Technologies used" className="tech__img" />
-//             <h1>{item.content}</h1>
-//           </div>

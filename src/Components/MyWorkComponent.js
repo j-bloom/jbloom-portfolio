@@ -10,7 +10,6 @@ function MyWorkComponent() {
   if(error) console.log(error);
   return (
     <div>
-      {/* <div className="portfolio"> */}
         <div>
           {projects.map((item) => {
             if(
@@ -27,7 +26,6 @@ function MyWorkComponent() {
             return true;
           })}
         </div>
-      {/* </div> */}
     </div>
   );
 }

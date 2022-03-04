@@ -5,9 +5,6 @@ import Navigation from "./Navigation";
 function Header() {
   return (
     <header>
-      {/* <div className="logo">
-        <img src={Logo} alt="" />
-      </div> */}
       <Navigation />
     </header>
   );

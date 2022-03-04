@@ -29,7 +29,6 @@ function MyWork() {
         <tbody className="my-work__table--items">
           {projects.map((project) => (
             <tr key={project.id}>
-              {console.log(project.id)}
               <td>{project.name}</td>
               <td>{project.language}</td>
               <td>

@@ -36,8 +36,8 @@ function HomePage() {
           Technologies I use
         </h1>
         {/* Below code is to ensure only certain objects get shown 
-          on main page to not over crowd it more objects are displayed 
-          on the Technologies page */}
+          on main page to not over crowd section, more objects are 
+          displayed on the Technologies page */}
         <div className="technologies">
           {Technologies.map((item) => {
             if ((item.content === "C#") || (item.content === "React")) {

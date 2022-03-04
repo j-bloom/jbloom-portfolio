@@ -10,7 +10,7 @@ function TechnologiesComponent() {
         {Technologies.map((item) => {
           if (item.langType === "Programming") {
             return (
-              <img
+              <img key={item.id}
                 src={item.img}
                 className="tech--img__programming"
                 alt="technology used"
@@ -25,7 +25,7 @@ function TechnologiesComponent() {
         {Technologies.map((item) => {
           if (item.langType === "WebDevelopment") {
             return (
-              <img
+              <img key={item.id}
                 src={item.img}
                 className="tech--img__webdev"
                 alt="technology used"
@@ -40,7 +40,7 @@ function TechnologiesComponent() {
         {Technologies.map((item) => {
           if (item.langType === "Database") {
             return (
-              <img
+              <img key={item.id}
                 src={item.img}
                 className="tech--img__db"
                 alt="technology used"

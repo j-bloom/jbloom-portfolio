@@ -13,7 +13,7 @@ function App() {
     <div className="App"> 
       <Navigation />
       <Routes>
-          <Route path="/jbloom-portfolio" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/AboutMe" element={<AboutMe />} />
           <Route path="/Technologies" element={<Technologies />} />
           <Route path="/MyWork" element={<MyWork />} />

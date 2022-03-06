@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/jbloom-portfolio/static/css/main.a8c4e476.css",
-    "main.js": "/jbloom-portfolio/static/js/main.62d47b7d.js",
-    "static/media/portfolio-photo.jpg": "/jbloom-portfolio/static/media/portfolio-photo.4169b302dc2b182da16a.jpg",
-    "static/media/portfoliophoto-placeholder.jpg": "/jbloom-portfolio/static/media/portfoliophoto-placeholder.9611e61a2c0571974198.jpg",
-    "static/media/technologies.jpg": "/jbloom-portfolio/static/media/technologies.a3e2e6a1fc93b3eac711.jpg",
-    "index.html": "/jbloom-portfolio/index.html",
-    "main.a8c4e476.css.map": "/jbloom-portfolio/static/css/main.a8c4e476.css.map",
-    "main.62d47b7d.js.map": "/jbloom-portfolio/static/js/main.62d47b7d.js.map"
+    "main.css": "/static/css/main.00390193.css",
+    "main.js": "/static/js/main.347cf06c.js",
+    "static/media/portfolio-photo.jpg": "/static/media/portfolio-photo.4169b302dc2b182da16a.jpg",
+    "static/media/portfoliophoto-placeholder.jpg": "/static/media/portfoliophoto-placeholder.9611e61a2c0571974198.jpg",
+    "static/media/technologies.jpg": "/static/media/technologies.a3e2e6a1fc93b3eac711.jpg",
+    "index.html": "/index.html",
+    "main.00390193.css.map": "/static/css/main.00390193.css.map",
+    "main.347cf06c.js.map": "/static/js/main.347cf06c.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8c4e476.css",
-    "static/js/main.62d47b7d.js"
+    "static/css/main.00390193.css",
+    "static/js/main.347cf06c.js"
   ]
 }
